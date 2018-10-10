@@ -1,0 +1,43 @@
+.main {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  background-image: url(../img/background-min.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-wrapper {
+  text-align: center;
+}
+.main-wrapper__under-title {
+  padding-top: 235px;
+  margin: 0 auto 20px auto;
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px;
+}
+.main-wrapper__title {
+  font-weight: bold;
+  font-size: 140px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  width: 820px;
+  text-align: center;
+  margin: auto;
+}
+.wrapper-button {
+  text-align: center;
+}
+.wrapper-button__button {
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  border: 3px solid #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-image: none;
+  background: transparent;
+  color: #fff;
+  margin: 72px 0 228px 0;
+}
