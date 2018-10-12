@@ -6,7 +6,9 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
+    width: 1204px;
+    margin: 138px auto 0 auto;
   }
   
   .copyright--before::before {

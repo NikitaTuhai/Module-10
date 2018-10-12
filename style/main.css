@@ -5,10 +5,12 @@
   background-image: url(../img/background-min.jpg);
   background-position: center;
   background-size: cover;
+  padding-bottom: 221px;
 }
 
 .main-wrapper {
   text-align: center;
+  margin-bottom: 78px;
 }
 .main-wrapper__under-title {
   padding-top: 235px;
@@ -39,5 +41,4 @@
   background-image: none;
   background: transparent;
   color: #fff;
-  margin: 72px 0 228px 0;
 }

@@ -14,8 +14,16 @@
   text-transform: uppercase;
 }
 
-.team-name__line {
-  margin: 0 0 0 67px;
+.team-name__title--underline::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3.5px;
+  background-color: #f38181;
+  margin-top: 37px;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
 }
 .team-name__text {
   font-family: "Roboto-Regular", sans-serif;
@@ -40,7 +48,8 @@
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: flex;
+  padding: 0;
 }
 .member-card__wrapper {
   -webkit-transition: 0.2s linear;
@@ -153,5 +162,8 @@
   fill: rgb(225, 225, 225);
 }
 .icon-wrapper--hover:hover {
+  fill: #ffffff;
+}
+.instagram:hover {
   fill: #ffffff;
 }
