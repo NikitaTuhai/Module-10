@@ -129,6 +129,7 @@
   -o-transition: 0.2s;
   transition: 0.2s;
 }
+
 .icon-wrapper {
   width: 50px;
   height: 50px;
@@ -154,16 +155,17 @@
   cursor: pointer;
   opacity: 0;
 }
+.icon-wrapper--hover .icons--hover {
+  fill: rgb(243, 129, 129);
+  }
 .icon-wrapper--hover:hover {
   background-color: #f38181;
   border: 1px solid #f38181;
 }
-.icons--hover:hover {
-  fill: rgb(225, 225, 225);
-}
+
 .icon-wrapper--hover:hover {
   fill: #ffffff;
 }
-.instagram:hover {
-  fill: #ffffff;
+.icon-wrapper--hover:hover .icons--hover {
+fill: #ffffff;
 }
